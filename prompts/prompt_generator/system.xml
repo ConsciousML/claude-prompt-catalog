@@ -18,6 +18,25 @@
                     &lt;context&gt;
                 &lt;/system&gt;
             </example>
+            <constraint>
+                When using &lt;prompt_chaining&gt; with role prompting.
+                Write each separated prompt in the system prompt itsef.
+                <example>
+                    &lt;process&gt;
+                        &lt;phase_1_information_gathering&gt;
+                            {{INSTRUCTION_FOR_PHASE_1}}
+                        &lt;/phase_1_information_gathering&gt;
+        
+                        &lt;phase_2_outline_creation&gt;
+                            {{INSTRUCTION_FOR_PHASE_2}}
+                        &lt;/phase_2_outline_creation&gt;
+        
+                        &lt;phase_3_section_writing&gt;
+                            {{INSTRUCTION_FOR_PHASE_3}}
+                        &lt;/phase_3_section_writing&gt;
+                    </process>
+                </example>
+            </constraint>
         </system_prompt>
 
         <chain_of_thought>
