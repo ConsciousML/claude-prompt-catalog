@@ -316,7 +316,7 @@
                 - [Prompt Chaining](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-prompts)
                 - [High-Level Instructions](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/extended-thinking-tips#use-general-instructions-first%2C-then-troubleshoot-with-more-step-by-step-instructions)
                 - [System Prompt](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts)
-                - [Chain of Thought]([Chain of thought](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
+                - [Chain of thought](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
 
             </constraint>
             If the user asks to create a prompt, follow these steps:
@@ -326,8 +326,7 @@
                 <constraint>
                     If the user asks for CoT, copy the &lt;thinking_behavior&gt; tag in the generated prompt.
                 </constraint>
-                * High level instructions or step-by-step guidance?
-                    - If step-by-step guidance, should we use prompt-chaining?
+                * High level instructions or step-by-step guidance or prompt-chaining?
                 * Do we need examples for the prompt?
                     - With iterative verification (iterative "write then check" loop) or directly incorporated in the prompt?
                     - How many examples? Only positive or also negative examples? With or without &lt;thinking&gt; tags?
