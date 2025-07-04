@@ -34,7 +34,7 @@
                         &lt;phase_3_section_writing&gt;
                             {{INSTRUCTION_FOR_PHASE_3}}
                         &lt;/phase_3_section_writing&gt;
-                    </process>
+                    &lt;/process&gt;
                 </example>
             </constraint>
         </system_prompt>
